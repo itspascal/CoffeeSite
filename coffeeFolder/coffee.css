@@ -1,0 +1,195 @@
+body{
+    background: rgb(247,246,242);
+    background: linear-gradient(0deg, rgba(247,246,242,1) 0%, rgba(249,229,202,1) 100%);
+}
+.nav-bar{
+    text-align: center;
+}
+.nav-bar li{
+    margin: 0;
+    padding: 25px;
+    display:inline-block;
+    text-decoration: none;
+    color: #2D2424;
+    font-family: 'Varela Round', sans-serif;
+    justify-content: center;
+}
+
+
+nav a{
+    color: #2D2424;
+    font-size: 30px;
+    width: 25%;
+    text-decoration: none;
+}
+
+h1{
+    color: #2D2424;
+    font-size: 80px;
+    text-align: center;
+    background-color: #EAE3DF;
+    font-family: 'Fredoka One', cursive;
+    background-size: cover;
+}
+
+p{
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 25px;
+}
+
+.site-title:hover{
+    color: chocolate;
+    transition: .5s ease-in-out;
+}
+
+nav a:hover{
+    position: relative;
+}
+
+.hero-img{
+    background-color: #2D2424;
+    width: auto;
+    display :flex;
+    justify-content: center;
+}
+.hero-img img{
+    width:50%;
+    height: auto;
+    background-color: #2D2424;
+    display: flex;
+}
+
+.hero-img p{
+    font-size: 45px;
+    color: #EAE3DF;
+}
+
+.main-img .im1 {
+    width: auto;
+    height: 26em;
+    padding: 0 15px 15px 0;
+    position: relative;
+    float: right;
+    background-color: gradient(rgb(95, 60, 44));
+    text-align: center;
+}
+
+.main-img .im2 {
+    width: auto;
+    height: 26em;
+    padding: 0 15px 15px 0; 
+    position: relative;
+    float: left;
+}
+
+.main-img .im3 {
+    width: auto;
+    height: 26em;
+    padding: 0 15px 15px 0; 
+    position: relative;
+    float: right;
+}
+
+.main-img .im4 {
+    width: auto;
+    height: 26em;
+    padding: 0 15px 15px 0; 
+    position: relative;
+    float: left;
+}
+
+.im1-p {
+    color: #2D2424;
+    float: inline-end;
+    overflow: hidden;
+    padding: 12rem;
+    text-align: center;
+}
+
+.im2-p {
+    color: #2D2424;
+    float: inline-end;
+    overflow: hidden;
+    padding: 12rem;
+    text-align: center;
+}
+
+.im3-p {
+    color: #2D2424;
+    float: inline-end;
+    overflow: hidden;
+    padding: 12rem;
+    text-align: center;
+}
+
+.im4-p {
+    color: #2D2424;
+    float: inline-end;
+    overflow: hidden;
+    padding: 12rem;
+    text-align: center;
+}
+
+.main-img img{
+    border-bottom: #B85C38 15px solid;
+    border-top-right-radius: 25%;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+}
+
+.coffee-collection{
+    text-align: center;
+}
+
+.coffee-wrapper{
+    width: 100%;
+    margin-top: 12%;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.coffee-wrapper img{
+    display: inline-block;
+    width: 55%;
+    height: 55%;
+    justify-content: space-between;
+    border-style: solid;
+    border-width: 5px;
+    border-image: linear-gradient(45deg, rgb(#2D2424), rgb(#EAE3DF)) 5;
+}
+
+.coffee-cards h2{
+    text-decoration: underline orange 5px;
+}
+.coffee-cards .price{
+    color: tomato;
+}
+.coffee-cards button{
+    margin: 5px;
+    padding: 5px;
+    overflow: hidden;
+    width: 250px;
+    font-size: 1em;
+    color: sienna;
+    background-color: wheat;
+    border-radius: 5px;
+    border: solid orange 2.5px;
+    transition: .5s;
+    opacity: .8;
+}
+
+.coffee-cards button:hover{
+    background-color: #EAE3DF;
+    transition: ease-in-out 5ms;
+}
+
+.divider{
+    border-top: 5px solid #2D2424;
+    border-radius: 15px;
+}
+
